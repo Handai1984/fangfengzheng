@@ -10,6 +10,8 @@ cc.Class({
     start() {
         this.is_walking = false;
         this.isOver = false;
+        
+        
     },
 
     walk_to(dst) {
