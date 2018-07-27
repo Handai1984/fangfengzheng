@@ -93,11 +93,11 @@ cc.Class({
     },
 
     google_url() {
-        sys.openURL("https://play.google.com/store/apps/details?id=com.handai.yueyupaku");
+        cc.sys.openURL("https://play.google.com/store/apps/details?id=com.handai.yueyupaku");
     },
 
     ios_url() {
-        sys.openURL("https://itunes.apple.com/cn/app/id1376376418?mt=8");
+        cc.sys.openURL("https://itunes.apple.com/cn/app/id1376376418?mt=8");
     },
 
     ad_back() {

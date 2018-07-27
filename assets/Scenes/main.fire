@@ -485,8 +485,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 750,
-      "height": 169
+      "width": 754,
+      "height": 170
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -543,8 +543,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 111,
-      "height": 111
+      "width": 104,
+      "height": 104
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -552,7 +552,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -169.5,
+      "x": -95,
       "y": 1
     },
     "_skewX": 0,
@@ -571,7 +571,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "095b59ef-c973-4e2c-9ed3-f8a6a79e05c6"
+      "__uuid__": "b9d102ac-fdbd-4699-a707-1d86bf6ce2ee"
     },
     "_type": 1,
     "_sizeMode": 2,
@@ -676,10 +676,10 @@
     "isAlignOnce": true,
     "_target": null,
     "_alignFlags": 12,
-    "_left": 150,
+    "_left": 230,
     "_right": 0,
     "_top": 0,
-    "_bottom": 30,
+    "_bottom": 34,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -730,8 +730,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 111,
-      "height": 110
+      "width": 104,
+      "height": 104
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -739,7 +739,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 169.5,
+      "x": 114,
       "y": 1
     },
     "_skewX": 0,
@@ -758,7 +758,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "e5559d13-9578-4023-afb4-c47c8766c84f"
+      "__uuid__": "a0608d47-10b4-40dd-a1d3-8f8da2a77c28"
     },
     "_type": 1,
     "_sizeMode": 2,
@@ -864,9 +864,9 @@
     "_target": null,
     "_alignFlags": 36,
     "_left": 150,
-    "_right": 150,
+    "_right": 211,
     "_top": 0,
-    "_bottom": 30.5,
+    "_bottom": 34,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -887,7 +887,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "8b066bac-c451-400e-b111-5ff7cf9035c7"
+      "__uuid__": "4f4378e1-c82b-488e-a7ed-224159066bce"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -915,10 +915,10 @@
     "isAlignOnce": true,
     "_target": null,
     "_alignFlags": 44,
-    "_left": 0,
-    "_right": 0,
+    "_left": -2,
+    "_right": -2,
     "_top": 0,
-    "_bottom": -0.5,
+    "_bottom": -1,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
