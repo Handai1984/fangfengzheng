@@ -3,6 +3,11 @@ cc.Class({
 
     properties: {
         speed: 200,
+
+        ad_node: {
+            type: cc.Node,
+            default: null,
+        }
     },
 
 
@@ -10,7 +15,7 @@ cc.Class({
     start() {
         this.is_walking = false;
         this.isOver = false;
-        
+        this.ad_node.active = false;
         
     },
 
@@ -38,7 +43,8 @@ cc.Class({
     onCollisionEnter(other, self) {
         if (other.node.groupIndex == 2) { //碰到闪电死亡
             this.isOver = true;
-            jsb.reflection.callStaticMethod("AppController", "game2NativeShow");
+            //jsb.reflection.callStaticMethod("AppController", "game2NativeShow");
+            this.ad_node.active = true;
             other.node.destroy();
         }
         if (other.node.groupIndex == 3) { //碰到白云变大
@@ -84,6 +90,18 @@ cc.Class({
         this.node.scale -= dt* 0.1;
 
 
+    },
+
+    google_url() {
+        sys.openURL("https://play.google.com/store/apps/details?id=com.handai.yueyupaku");
+    },
+
+    ios_url() {
+        sys.openURL("https://itunes.apple.com/cn/app/id1376376418?mt=8");
+    },
+
+    ad_back() {
+        this.ad_node.active = false;
     }
 
 });
